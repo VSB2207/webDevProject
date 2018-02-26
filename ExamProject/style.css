@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+}
+
+    #frmSignIn{
+        display: grid;
+        width: 50%;
+        float: left;
+        padding: 0 40px;
+        border: solid 1px #dbd8d6;
+
+    }
+
+    #frmSignUp{
+        display: grid;
+        width: 50%;
+        float: right;
+        padding: 0 40px;
+        border: solid 1px #dbd8d6;
+
+    }
+
+    #frmUpdateProduct{
+        display:none;
+        width: 50%;
+        float: right;
+        padding: 0 40px;
+        border: solid 1px #dbd8d6;
+
+    }
+
+    #frmUpdateUser{
+        display:none;
+        width: 50%;
+        float: right;
+        padding: 0 40px;
+        border: solid 1px #dbd8d6;
+
+    }
+
+    #frmUpdateUser{
+        display:none;
+        width: 50%;
+        float: right;
+        padding: 0 40px;
+        border: solid 1px #dbd8d6;
+
+    }
+    #frmUpdateUserInfo{
+        display:none;
+        width: 50%;
+        float: right;
+        padding: 0 40px;
+        border: solid 1px #dbd8d6;
+
+    }
+
+    #frmLoggedUser{
+        display:none;
+        width: 50%;
+        float: right;
+        padding: 0 40px;
+        border: solid 1px #dbd8d6;
+    }
+
+#frontPage{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+
+#pageViewProducts{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pageAddProducts{
+    display:none;
+    background-color: #e7e7e7;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#pageListUsers{
+    display:none;
+    background-color: #e7e7e7;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#boxProducts{
+    display: grid;
+    width: 70%;
+    height:100vh;
+    float: right;
+    background-color: #e7e7e7;
+    padding: 0px 50px 0px 30px;
+    border: 1px solid #f3f3f3;
+}
+
+#boxProducts img{
+height: 300px;
+}
+#boxListProducts img{
+height: 300px;
+}
+
+#boxUserInfo{
+    display: grid;
+    width:30%;
+    height:100vh;
+    float: left;
+    background-color: #D3D3D3;
+}
+
+#btnLogout, #btnSignIn, #btnCreateAccount{
+    margin: 0;
+    padding: 12px;
+    width: 220px;
+    height:40px;
+    background-color: #c1b497;
+    border:solid 2px #c1b497;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+
+#userForm input{
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    box-sizing: border-box;
+    background: #fff;
+    border: none;
+    font-family: inherit;
+    max-width: 392px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+
+#myInput{
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+
+}
+
+.currentPage{
+    display: none;
+}
+
+.adminButton{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+#btnSeeUsers{
+    margin-top: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#boxUserInfo img{
+    width:70%;
+}
+
+
+#pageListUsers img{
+    width:50%;
+}
